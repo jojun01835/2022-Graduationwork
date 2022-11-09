@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TestActivity">
+
+    <TextView
+        android:id="@+id/textView_write_type"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="게시판 분류"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+    <androidx.appcompat.widget.AppCompatSpinner
+        android:id="@+id/spinner_write_type"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_toRightOf="@+id/textView_write_type" />
+
+    <TextView
+        android:id="@+id/textView_write_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView_write_type"
+        android:text="제목"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+    <EditText
+        android:id="@+id/editText_write_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="20"
+        android:hint="제목을 입력하세요"
+        android:layout_below="@id/spinner_write_type"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="20dp"
+        android:layout_toRightOf="@+id/textView_write_title"/>
+
+
+    <TextView
+        android:id="@+id/textView_write_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView_write_title"
+        android:text="내용"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+    <EditText
+        android:id="@+id/editText_writeContent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView_write_content"
+        android:layout_marginTop="20dp"
+        android:inputType="textMultiLine"
+        android:hint="내용을 입력하세요"/>
+
+    <Button
+        android:id="@+id/button_write_register"
+        android:onClick="button_board_register"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="등록하기"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"/>
+
+    <Switch
+        android:id="@+id/switch1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Switch" />
+
+
+</RelativeLayout>

@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ReadBoardActivity">
+
+    <ImageView
+        android:id="@+id/backbtn"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="26dp"
+        app:srcCompat="@drawable/backbutton" />
+
+    <TextView
+        android:id="@+id/textView_read_board"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        android:fontFamily="@font/nanum1"
+        android:gravity="center"
+        android:text="게시판"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+
+    <ImageView
+        android:id="@+id/tilte_line"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView_read_board"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="26dp"
+        android:src="@drawable/rdtitle_line" />
+
+
+    <TextView
+        android:id="@+id/textView_read_board_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tilte_line"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="30dp"
+        android:fontFamily="@font/nanum2"
+        android:text="제목"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+    <ImageView
+        android:id="@+id/rdbd_set"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_below="@+id/tilte_line"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="29dp"
+        android:layout_marginRight="16dp"
+        android:src="@drawable/read_board_set" />
+
+    <TextView
+        android:id="@+id/textView_read_board_writer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView_read_board_title"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/nanum3"
+        android:text="작성자"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+    <TextView
+        android:id="@+id/textView_read_board_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView_read_board_writer"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="5dp"
+        android:fontFamily="@font/nanum3"
+        android:text="날짜"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+<!--    <Button-->
+<!--        android:id="@+id/button_board_delete"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_below="@+id/textView_read_board_date"-->
+<!--        android:layout_alignParentRight="true"-->
+<!--        android:layout_marginLeft="20dp"-->
+<!--        android:layout_marginTop="20dp"-->
+<!--        android:enabled="false"-->
+<!--        android:text="삭제하기" />-->
+
+<!--    <Button-->
+<!--        android:id="@+id/button_board_modify"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_below="@+id/textView_read_board_date"-->
+<!--        android:layout_marginTop="20dp"-->
+<!--        android:layout_toLeftOf="@+id/button_board_delete"-->
+<!--        android:enabled="false"-->
+<!--        android:text="수정하기" />-->
+
+    <TextView
+        android:id="@+id/textView_read_board_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView_read_board_date"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="40dp"
+        android:fontFamily="@font/nanum2"
+        android:scrollbars="vertical"
+        android:text="여기는 내용라인입니다"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+
+
+</RelativeLayout>
