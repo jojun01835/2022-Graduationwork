@@ -32,5 +32,13 @@
             }
         });*/
 ```
-오류발생 부분 주석처리함
+오류발생 부분 주석처리함 -박재윤-
+
+10/7일 안드로이드 개발경과 
+
+![캡처](https://user-images.githubusercontent.com/73435598/201168606-704962c7-000e-4b40-bf00-c65e2866d5fb.PNG) 수정 전
+![Screenshot_1668099768](https://user-images.githubusercontent.com/73435598/201168649-bbe0009c-402e-4139-a7df-4cdd5af83b4c.png) 수정 후
+ 
+작업자 -최재혁-
+
 
