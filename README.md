@@ -14,7 +14,7 @@
 </p>
 
 <br>
-### 주요기술
+# 주요기술
 <p align="justify">
 
   1. BlueTooth HC-06을 이용한 안드로이드와 블루투스 통신<br>
