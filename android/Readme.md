@@ -17,3 +17,20 @@
 | 6주차 | ☑️ | ☑️ | 안드로이드 개발 종료 및 아두이노 제작회의  |
 | 7주차 | ☑️ | ☑️ | 아두이노 제품 제작 |
 | 8주차 |  |  | 최종발표  |
+
+<br>
+
+10/1일 안드로이드 개발 경과
+
+```c
+/*btnadd.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getApplicationContext(), Add.class);
+                startActivity(intent);
+                finish();
+            }
+        });*/
+```
+오류발생 부분 주석처리함
+
