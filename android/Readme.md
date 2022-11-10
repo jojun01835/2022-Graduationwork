@@ -36,8 +36,7 @@
 
 10/7일 안드로이드 개발경과 
 
-<img width = "30%" height = "30%" src="https://user-images.githubusercontent.com/73435598/201168606-704962c7-000e-4b40-bf00-c65e2866d5fb.PNG"/>
-<img width = "30%" height = "30%" src="https://user-images.githubusercontent.com/73435598/201168649-bbe0009c-402e-4139-a7df-4cdd5af83b4c.png"/> 수정 후
+<img width = "30%" height = "30%" src="https://user-images.githubusercontent.com/73435598/201168606-704962c7-000e-4b40-bf00-c65e2866d5fb.PNG"/><img width = "30%" height = "30%" src="https://user-images.githubusercontent.com/73435598/201168649-bbe0009c-402e-4139-a7df-4cdd5af83b4c.png"/> 수정 후
  
 작성자 -최재혁-
 
