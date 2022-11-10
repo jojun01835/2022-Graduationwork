@@ -66,6 +66,13 @@ public void onChildAdded(@NonNull DataSnapshot dataSnapshot, @Nullable String s)
 ```
 이 부분 수정했습니다 -박수민-
 
+## 11/11
+
+풀업하다가 잘못올려서 저장소를 실수로 지웠습니다 이전에 작성한 Readme파일로 다시 복구하긴 했으나 몇몇 기록은 손실되었습니다 죄송합니다...
+<br> -조장 조준영-
+
+
+
 ## 기여 방법
 
 1. 제 졸업작품 저장소를 포크합니다.
