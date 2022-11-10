@@ -2,7 +2,7 @@
 
 <p align="center">
   <br>
-  <img src=![login_logo](https://user-images.githubusercontent.com/73435598/201158032-f6528e9f-51fe-4169-99f0-46038a35c87d.png)
+  <img width = "80%" src= "https://user-images.githubusercontent.com/73435598/201158032-f6528e9f-51fe-4169-99f0-46038a35c87d.png" />
 
   <br>
 </p>
