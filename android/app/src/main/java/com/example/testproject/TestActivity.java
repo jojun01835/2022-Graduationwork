@@ -43,6 +43,7 @@ public class TestActivity extends AppCompatActivity {
 
     Spinner spinner_write_type; // 분류
     EditText write_title , write_content; // 제목 , 내용
+    int click = 0;
 
     ArrayList<String> writeKey = null;
     ArrayList<String> writeValue = null;
@@ -182,6 +183,7 @@ public class TestActivity extends AppCompatActivity {
         board.setUid(uid);
 
         board.setName(name);
+        board.setClick(click);
 
 
         board.setDate(today);

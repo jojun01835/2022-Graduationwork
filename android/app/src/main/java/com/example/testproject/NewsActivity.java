@@ -13,6 +13,7 @@ public class NewsActivity extends AppCompatActivity {
 
     TextView textViewCare, textViewNews, textViewHome, textViewCom, textViewMy;
     ImageView imageViewCare, imageViewNews, imageViewHome, imageViewCom, imageViewMy;
+    ImageView imageadd1, imageadd2, imageadd3, imageadd4;
 
 
     @Override
@@ -31,6 +32,48 @@ public class NewsActivity extends AppCompatActivity {
         imageViewCom = findViewById(R.id.imageViewCom);
         imageViewMy = findViewById(R.id.imageViewMy);
         imageViewHome = findViewById(R.id.imageViewHome);
+
+        imageadd1 = findViewById(R.id.Add1);
+        imageadd2 = findViewById(R.id.Add2);
+        imageadd3 = findViewById(R.id.Add3);
+        imageadd4 = findViewById(R.id.Add4);
+
+        imageadd1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent1 = new Intent(getApplicationContext(),WebView_1.class);
+                startActivity(intent1);
+
+            }
+        });
+
+        imageadd2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent2 = new Intent(getApplicationContext(), WebView_2.class);
+                startActivity(intent2);
+
+            }
+        });
+
+        imageadd3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent3 = new Intent(getApplicationContext(), WebView_3.class);
+                startActivity(intent3);
+
+            }
+        });
+
+        imageadd4.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent4 = new Intent(getApplicationContext(), WebView_4.class);
+                startActivity(intent4);
+
+            }
+        });
+
 
         textViewCare.setOnClickListener(new View.OnClickListener() {
             @Override

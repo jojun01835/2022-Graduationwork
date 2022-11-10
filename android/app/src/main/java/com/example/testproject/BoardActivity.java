@@ -177,7 +177,7 @@ public class BoardActivity extends AppCompatActivity {
                     arr_uid.add(board.getUid());
                     arr_board_key.add(snapshot.getKey());
 
-                    listAdapter.addItem(board.getTitle(), board.getDate(), board.getName());
+                    listAdapter.addItem(board.getTitle(), board.getDate(), board.getName(), board.getClick());
 
                 }
             }

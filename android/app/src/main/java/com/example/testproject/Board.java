@@ -9,6 +9,7 @@ public class Board {
     private String date;
     private String order_date;
     private String name;
+    private int click;
 
     public String getTitle() {
         return title;
@@ -64,6 +65,14 @@ public class Board {
 
     public void setName(String name) {
         this.name = name;
+    }
+
+    public int getClick() {
+        return click;
+    }
+
+    public void setClick(int click) {
+        this.click = click;
     }
 }
 

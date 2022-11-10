@@ -259,13 +259,13 @@ public class CareActivity extends AppCompatActivity {
                 btSocket.connect();
             } catch (IOException e) {
                 flag = false;
-                textStatus.setText("connection failed!");
+                textStatus.setText("연결실패!");
                 e.printStackTrace();
             }
 
             // start bluetooth communication
             if(flag){
-                textStatus.setText("connected to "+name);
+                textStatus.setText("연결된 기기 : "+name);
                 connectedThread = new ConnectedThread(btSocket);
                 connectedThread.start();
             }
