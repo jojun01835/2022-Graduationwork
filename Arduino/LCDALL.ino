@@ -67,7 +67,20 @@ void setup()
 void loop()
 {
  
-  float h = 
+  float h = dht.readHumidity();
+  float t = dht.readTemperature();
+
+  if(isnan(h) || isnan(t)){
+    Serial.println(F("Failed to read from DHT sensor!"));
+    return;
+  }
+
+  Serial.print((int)t); Serial.print("*C ");
+  Serial.print((int)h); Serial.println("%");
+
+  delay(5000);
+
+
   int key1S = digitalRead(key1);
   int key2S = digitalRead(key2);
   int key3S = digitalRead(key3);
@@ -106,16 +119,6 @@ void loop()
   }
 
   data = 0;  //data 초기화
-
-  delay(2000);
-  int h = dht.readHumidity();
-  int t = dht.readTemperature();
-  Serial.print("Humidity: ");
-  Serial.print(h);
-  Serial.print("%\t");
-  Serial.print("Temperature: ");
-  Serial.print(t);
-  Serial.println("C");
 
   lcd.setCursor(0,0); // LCD Cursor 원점
   lcd.print("TEMP: "); // LCD에 "temp" 표시
