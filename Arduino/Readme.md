@@ -22,6 +22,7 @@
 <img whith="30%" height="30%" src="https://user-images.githubusercontent.com/73435598/201585003-3809f414-b1eb-4be5-acfb-26a6d8a2b020.PNG"/><br>
 아두이노 코드 작성<br>
 ```c
+
 #define LED1  9 //LED핀 번호
 #define LED2 10 
 
@@ -41,6 +42,7 @@ if(data == 'a'){
       
   }
 }
+
 ```
 
 
@@ -49,6 +51,5 @@ if(data == 'a'){
 
 1. 제 졸업작품 저장소를 포크합니다.
 2. 명령어로 커밋하세요.
-4. 명령어로 브랜치에 푸시하세요. 
-
-5. 풀리퀘스트를 보내주세요.
+3. 명령어로 브랜치에 푸시하세요. 
+4. 풀리퀘스트를 보내주세요.
