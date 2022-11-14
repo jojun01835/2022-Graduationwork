@@ -43,6 +43,33 @@ if(data == 'a'){
   }
 }
 ```
+## 2회차
+<br>
+<img whith="30%" height="30%" src="https://user-images.githubusercontent.com/73435598/201587779-a33ac171-b384-4067-939c-c5c22049e490.PNG"/><br>
+아두이노 코드 작성<br>
+```c
+#define LED1  9 //LED핀 번호
+#define LED2 10 
+
+void setup(){
+ pinMode(LED2, OUTPUT);
+ pinMode(LED1, OUTPUT);
+}
+void loop(){
+if(data == 'a'){  
+      digitalWrite(LED2, HIGH);  //LED 켜기
+      digitalWrite(LED1, HIGH);  //LED 켜기
+  }
+  
+  else if(data == 'b'){  
+      digitalWrite(LED2, LOW);  //LED 끄기
+      digitalWrite(LED1, LOW);  //LED 끄기
+      
+  }
+}
+```
+
+
 
 
 
