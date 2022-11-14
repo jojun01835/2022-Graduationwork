@@ -75,8 +75,7 @@ public void onChildAdded(@NonNull DataSnapshot dataSnapshot, @Nullable String s)
 ## 11/12
 <br>
 11월 12일 변경사항
-<img width = "30%" height = "30%" src="https://user-images.githubusercontent.com/73435598/201590883-467b5433-bd06-4095-a931-7eb346a7dcef.png"/><img width = "30%" height = "30%" src="https://user-images.githubusercontent.com/73435598/201590993-1fa0b305-fcae-42b3-814f-32f41d842aca.png"/><img width = "30%" height = "30%" src="https://user-images.githubusercontent.com/73435598/201591201-aec04a2d-c37b-414e-8195-4fe2efe7510d.png"/> 
-<br>
+<img width = "30%" height = "30%" src="https://user-images.githubusercontent.com/73435598/201590883-467b5433-bd06-4095-a931-7eb346a7dcef.png"/><img width = "30%" height = "30%" src="https://user-images.githubusercontent.com/73435598/201590993-1fa0b305-fcae-42b3-814f-32f41d842aca.png"/><img width = "30%" height = "30%" src="https://user-images.githubusercontent.com/73435598/201591201-aec04a2d-c37b-414e-8195-4fe2efe7510d.png"/>
 <br>
 안드로이드 게시판 수정,삭제 버튼추가, 게시판 댓글기능 추가
 
