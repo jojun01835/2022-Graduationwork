@@ -87,6 +87,11 @@ float h = dht.readHumidity();
   lcd.print(" %"); //습도 단위 출력
 }
 ```
+## 3회차
+<br>
+<img whith="30%" height="30%" src="https://user-images.githubusercontent.com/73435598/201589008-98085a64-c654-4530-8b51-89d28231c13b.PNG"/><br>
+아두이노 코드 작성<br>
+
 
 ## 기여 방법
 
