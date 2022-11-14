@@ -47,31 +47,46 @@ if(data == 'a'){
 <br>
 <img whith="30%" height="30%" src="https://user-images.githubusercontent.com/73435598/201587779-a33ac171-b384-4067-939c-c5c22049e490.PNG"/><br>
 아두이노 코드 작성<br>
-```c
-#define LED1  9 //LED핀 번호
-#define LED2 10 
 
-void setup(){
- pinMode(LED2, OUTPUT);
- pinMode(LED1, OUTPUT);
+```c
+#include <LiquidCrystal_I2C.h>
+LiquidCrystal_I2C lcd(0x27, 16, 2);
+void setup()
+{
+Serial.begin(9600);  //하드웨어 시리얼 통신 준비
+ lcd.init(); 		// initialize the lcd 
+  lcd.backlight();
+  lcd.setCursor(2,0);
+  delay(5000);
+  lcd.clear();
 }
-void loop(){
-if(data == 'a'){  
-      digitalWrite(LED2, HIGH);  //LED 켜기
-      digitalWrite(LED1, HIGH);  //LED 켜기
+void loop()
+{
+float h = dht.readHumidity();
+  float t = dht.readTemperature();
+
+  if(isnan(h) || isnan(t)){
+    Serial.println(F("Failed to read from DHT sensor!"));
+    return;
   }
+
+  Serial.print((int)t); Serial.print("*C ");
+  Serial.print((int)h); Serial.println("%");
+
+  //delay(1000);
+
+  lcd.setCursor(0,0); // LCD Cursor 원점
+  lcd.print("TEMP: "); // LCD에 "temp" 표시
   
-  else if(data == 'b'){  
-      digitalWrite(LED2, LOW);  //LED 끄기
-      digitalWrite(LED1, LOW);  //LED 끄기
-      
-  }
+  lcd.print(t,1); // 온도값 LCD로 출력
+  lcd.print(" C"); // 온도 단위 표시
+  lcd.setCursor(0,1); //LCD 커서 줄바꿈
+  lcd.print("HUMI: "); //LCD 2번째 줄에 "humidity:" 출력
+
+  lcd.print(h); //습도값 LCD에 출력
+  lcd.print(" %"); //습도 단위 출력
 }
 ```
-
-
-
-
 
 ## 기여 방법
 
