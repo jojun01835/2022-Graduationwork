@@ -17,7 +17,10 @@
 <br>
 
 ## 1회차
-<img whith="30%" height="30%" src="https://user-images.githubusercontent.com/73435598/201585003-3809f414-b1eb-4be5-acfb-26a6d8a2b020.PNG"/>
+<br>
+아두이노 LED 회로도 및 하드웨어 제작
+<img whith="30%" height="30%" src="https://user-images.githubusercontent.com/73435598/201585003-3809f414-b1eb-4be5-acfb-26a6d8a2b020.PNG"/><br>
+아두이노 코드 작성<br>
 
 
 
