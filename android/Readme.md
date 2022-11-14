@@ -32,18 +32,18 @@
             }
         });*/
 ```
-오류발생 부분 주석처리함 -박재윤-
+오류발생 부분 주석처리함
 
 ## 10/7일 안드로이드 개발경과 
 
 <img width = "30%" height = "30%" src="https://user-images.githubusercontent.com/73435598/201168606-704962c7-000e-4b40-bf00-c65e2866d5fb.PNG"/><img width = "30%" height = "30%" src="https://user-images.githubusercontent.com/73435598/201168649-bbe0009c-402e-4139-a7df-4cdd5af83b4c.png"/> 수정 후
  
-작성자 -최재혁-
+
 
 ## 10/15일
 
 ~~디자인 수정 이후 개인정보 수정이 안되는 문제발생 확인바람.~~
-<br>10/16일 문제부분 수정했습니다 -최성호-
+<br>10/16일 문제부분 수정했습니다 
 
 ## 10/21
 
@@ -64,12 +64,21 @@ public void onChildAdded(@NonNull DataSnapshot dataSnapshot, @Nullable String s)
                 }
             }
 ```
-이 부분 수정했습니다 -박수민-
+이 부분 수정했습니다
 
 ## 11/11
 
 풀업하다가 잘못올려서 저장소를 실수로 지웠습니다 이전에 작성한 Readme파일로 다시 복구하긴 했으나 몇몇 기록은 손실되었습니다 죄송합니다...
 <br> -조장 조준영-
+
+
+## 11/12
+<br>
+11월 12일 변경사항
+<img width = "30%" height = "30%" src="https://user-images.githubusercontent.com/73435598/201590883-467b5433-bd06-4095-a931-7eb346a7dcef.png"/> <img width = "30%" height = "30%" src="https://user-images.githubusercontent.com/73435598/201590993-1fa0b305-fcae-42b3-814f-32f41d842aca.png"/> <img width = "30%" height = "30%" src="https://user-images.githubusercontent.com/73435598/201591201-aec04a2d-c37b-414e-8195-4fe2efe7510d.png"/> 
+<br>
+<br>
+안드로이드 게시판 수정,삭제 버튼추가, 게시판 댓글기능 추가
 
 
 
