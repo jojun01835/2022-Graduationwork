@@ -80,9 +80,13 @@ public void onChildAdded(@NonNull DataSnapshot dataSnapshot, @Nullable String s)
 안드로이드 게시판 수정,삭제 버튼추가, 게시판 댓글기능 추가
 
 
+
 ## 11/14
 11월 14일 변경사항
-<img width = "30%" height = "30%" src"https://user-images.githubusercontent.com/73435598/201801316-15aaa2c0-a983-449e-984a-044d640e712e.png"/> <img width = "30%" height = "30%" src"https://user-images.githubusercontent.com/73435598/201801373-a95ee6ce-4335-40c0-a611-8e0fe8c87e3d.png"/> <img width = "30%" height = "30%" src"https://user-images.githubusercontent.com/73435598/201801434-4889668b-ea80-4069-b7ac-9598fff94da2.png"/>  <img width = "30%" height = "30%" src"https://user-images.githubusercontent.com/73435598/201801497-2d6a4958-947f-4771-a8ca-a9d032fcb6d3.png"/>
+<img width = "30%" height = "30%" src="https://user-images.githubusercontent.com/73435598/201801807-9adbae11-81da-40f7-aead-6c432dad9d15.png"/><img width = "30%" height = "30%" src="
+https://user-images.githubusercontent.com/73435598/201801893-d28c75de-227f-4381-8267-8fc048b21004.png
+"/><img width = "30%" height = "30%" src="https://user-images.githubusercontent.com/73435598/201801928-4c07cab2-40e7-4538-8e88-465ef462bdba.png"/>
+
 <br>
 
 ## 기여 방법
