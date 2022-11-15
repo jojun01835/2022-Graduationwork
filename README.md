@@ -15,12 +15,13 @@
 
 
 
+
 <br>
 
 
 구성화면
 <div>
-<img width = "30%" height = "30%" src= "https://user-images.githubusercontent.com/73435598/201159824-4f4ae7f1-9ec7-4381-99f5-e6bf4641f8c7.png"/><img width = "30%" height = "30%" src= "https://user-images.githubusercontent.com/73435598/201800596-c1b5fc90-8fcb-48a1-87e1-418088c5dc69.png"/><img width = "30%" height = "30%"src= "https://user-images.githubusercontent.com/73435598/201800741-c0279eb2-1169-4ea1-9b2b-a74943d9856b.png"/><img width = "30%" height = "30%"src= "https://user-images.githubusercontent.com/73435598/201160415-c79c4ba4-2f82-4bd7-9942-558e5bd5cef5.png"/><img width = "30%" height = "30%"src= "https://user-images.githubusercontent.com/73435598/201160563-b30e31b6-7bf9-4240-8fe9-3e3c5b1b96eb.png"/><img width = "30%" height = "30%"src= "https://user-images.githubusercontent.com/73435598/201160626-bcb31ffb-7a36-46de-aac7-12dfb817d852.png"/>
+<img width = "30%" height = "30%" src= "https://user-images.githubusercontent.com/73435598/201159824-4f4ae7f1-9ec7-4381-99f5-e6bf4641f8c7.png"/><img width = "30%" height = "30%" src= "https://user-images.githubusercontent.com/73435598/201800596-c1b5fc90-8fcb-48a1-87e1-418088c5dc69.png"/><img width = "30%" height = "30%"src= "https://user-images.githubusercontent.com/73435598/201800741-c0279eb2-1169-4ea1-9b2b-a74943d9856b.png"/><img width = "30%" height = "30%"src= "https://user-images.githubusercontent.com/73435598/201800881-fd835320-6e3f-4314-b71b-dfc64a5b31e6.png"/><img width = "30%" height = "30%"src= "https://user-images.githubusercontent.com/73435598/201160563-b30e31b6-7bf9-4240-8fe9-3e3c5b1b96eb.png"/><img width = "30%" height = "30%"src= "https://user-images.githubusercontent.com/73435598/201160626-bcb31ffb-7a36-46de-aac7-12dfb817d852.png"/>
 </div>
 <br>
 
