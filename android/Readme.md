@@ -82,10 +82,11 @@ public void onChildAdded(@NonNull DataSnapshot dataSnapshot, @Nullable String s)
 
 
 ## 11/14
-11월 14일 변경사항
 <img width = "30%" height = "30%" src="https://user-images.githubusercontent.com/73435598/201801807-9adbae11-81da-40f7-aead-6c432dad9d15.png"/><img width = "30%" height = "30%" src="
 https://user-images.githubusercontent.com/73435598/201801893-d28c75de-227f-4381-8267-8fc048b21004.png
 "/><img width = "30%" height = "30%" src="https://user-images.githubusercontent.com/73435598/201801928-4c07cab2-40e7-4538-8e88-465ef462bdba.png"/>
+<br>
+안드로이드 메인페이지, 뉴스페이지, 블루투스 리모컨 xml 변경
 
 <br>
 
