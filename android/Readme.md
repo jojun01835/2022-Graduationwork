@@ -82,7 +82,7 @@ public void onChildAdded(@NonNull DataSnapshot dataSnapshot, @Nullable String s)
 
 ## 11/14
 11월 14일 변경사항
-<img width = "30%" height = "30%" src"https://user-images.githubusercontent.com/73435598/201801316-15aaa2c0-a983-449e-984a-044d640e712e.png"/><img width = "30%" height = "30%" src"https://user-images.githubusercontent.com/73435598/201801373-a95ee6ce-4335-40c0-a611-8e0fe8c87e3d.png"/><img width = "30%" height = "30%" src"https://user-images.githubusercontent.com/73435598/201801434-4889668b-ea80-4069-b7ac-9598fff94da2.png"/><img width = "30%" height = "30%" src"https://user-images.githubusercontent.com/73435598/201801497-2d6a4958-947f-4771-a8ca-a9d032fcb6d3.png"/>
+<img width = "30%" height = "30%" src"https://user-images.githubusercontent.com/73435598/201801316-15aaa2c0-a983-449e-984a-044d640e712e.png"/> <img width = "30%" height = "30%" src"https://user-images.githubusercontent.com/73435598/201801373-a95ee6ce-4335-40c0-a611-8e0fe8c87e3d.png"/> <img width = "30%" height = "30%" src"https://user-images.githubusercontent.com/73435598/201801434-4889668b-ea80-4069-b7ac-9598fff94da2.png"/>  <img width = "30%" height = "30%" src"https://user-images.githubusercontent.com/73435598/201801497-2d6a4958-947f-4771-a8ca-a9d032fcb6d3.png"/>
 <br>
 
 ## 기여 방법
